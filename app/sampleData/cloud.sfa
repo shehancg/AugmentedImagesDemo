@@ -1,0 +1,81 @@
+{
+  materials: [
+    {
+      name: '216_0',
+      parameters: [
+        {
+          baseColor: 'texture_0_6195987693227547908',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '209_0',
+      parameters: [
+        {
+          baseColor: 'texture_4_11563080508590297124',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/cloud.obj',
+    name: 'cloud',
+    recenter: 'root',
+    scale: 0.000229,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\texture_0_6195987693227547908.png',
+      name: 'texture_0_6195987693227547908',
+      pipeline_name: 'texture_0_6195987693227547908.png',
+    },
+    {
+      file: 'sampledata\\texture_4_11563080508590297124.png',
+      name: 'texture_4_11563080508590297124',
+      pipeline_name: 'texture_4_11563080508590297124.png',
+    },
+  ],
+  version: '0.54:2',
+}
